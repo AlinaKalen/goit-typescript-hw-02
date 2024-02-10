@@ -3,9 +3,8 @@
 */
 
 interface Book {
-  title;
+  title: string;
 }
-
 class Component<T> {
   constructor(public props: T) {}
 }
